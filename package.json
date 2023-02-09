@@ -1,6 +1,6 @@
 {
   "name": "promodal",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Library which create promise-based modal dialogs",
   "author": "taranovalexander",
   "license": "MIT",

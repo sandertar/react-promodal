@@ -51,6 +51,7 @@ export default class ModalGenerator extends PureComponent {
     // add new modal into 'this.state.modals'
     this.setState({
       modals: {
+        ...modals,
         [modalHash]: {
           resolve,
           reject,
@@ -58,7 +59,6 @@ export default class ModalGenerator extends PureComponent {
           props,
           options,
         },
-        ...modals,
       },
     });
   });
